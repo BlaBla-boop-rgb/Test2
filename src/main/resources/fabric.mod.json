@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "actest",
+  "version": "${version}",
+  "name": "AC Test",
+  "description": "Testwerkzeug für das Anticheat des eigenen Servers (/pvp). Läuft nur auf Servern, die in config/actest.json freigegeben sind.",
+  "authors": ["Luis"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.actest.ActestMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
